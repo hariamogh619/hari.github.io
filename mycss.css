@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=PT+Serif:wght@400;700&family=Playfair+Display:wght@400;700&display=swap');
+
+body {
+  padding-top: 60px;
+  color: #2d2d2d !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.header1-h1{
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 67.34px;
+
+}
+
+.header1-h2{
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50.52px;
+
+}
+
+.header1-h3{
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37.90px;
+
+}
+
+.header1-h4{
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28.43px;
+
+}
+
+.header1-emphasis{
+
+  font-family: 'PT Serif', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21.33px;
+
+}
+
+.header1-body{
+
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+.header1-link{
+
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #0000ee;
+
+}
+
+.header2-h1{
+
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 67.34px;
+
+}
+
+.header2-h2{
+
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50.52px;
+
+}
+
+.header2-h3{
+
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37.90px;
+
+}
+
+.header2-h4{
+
+  font-family: 'Playfair Display', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28.43px;
+
+}
+
+.header2-emphasis{
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21.33px;
+
+}
+
+.header2-body{
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+.header2-link{
+
+  font-family: 'Playfair Display', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #0000ee;
+
+}
+
+.header3-h1{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 67.34px;
+
+}
+
+.header3-h2{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50.52px;
+
+}
+
+.header3-h3{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 37.90px;
+
+}
+
+.header3-h4{
+
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 28.43px;
+
+}
+
+.header3-emphasis{
+
+  font-family: 'Open Sans', serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 21.33px;
+
+}
+
+.header3-body{
+
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+
+}
+
+.header3-link{
+
+  font-family: 'Open Sans', serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #0000ee;
+
+}
+
+.type-info{
+  font-weight: 200;
+}
+
+
+@media (max-width: 980px) {
+  html {
+    padding-top: 0;
+    font-family: 'Poppins', sans-serif !important;
+  }
+}
+
+.dropdown:hover .dropdown-menu{
+ display: block;
+}
+.dropdown-menu{
+  margin-top: 0;
+}
+
+.img-fluid {
+  max-width: 10%; 
+  max-height: auto; 
+}
+
+
