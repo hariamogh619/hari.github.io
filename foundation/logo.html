@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="../mycss.css">
+  <link rel='shortcut icon' type='image/x-icon' href='../myfavicon.png' />
+  <script>
+    $(document).ready(function(){
+      $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+          dropdownMenu.parent().toggleClass("open");
+        }
+      });
+    });     
+  </script>
+  <title>Hari Amogh Murugan Design System</title>
+</head>
+<body>
+  <div class="container">
+
+    <!--Nav Bar Starts-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="../index.html"><h3>Hari Amogh</h3></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Foundation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="typography1.html">Typography 1</a>
+              <a class="dropdown-item" href="typography2.html">Typography 2</a>
+              <a class="dropdown-item" href="typography3.html">Typography 3</a>
+              <a class="dropdown-item" href="logo.html">Logo</a>
+
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Coming soon</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Page Patterns
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Coming soon</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!--Nav Bar Ends-->
+    <div class="container">
+
+      <p><center><h1>Logo</h1></center></p>
+      <br>
+      <br>
+
+      <!--Page content starts-->
+
+      <div class="container custombg">
+
+      <div class="row align-items-center">
+        <div class="col">
+          <p class="header1-h4">
+            Color
+          </p>
+          <p class="header3-body">
+            The colored logo contains characaters inside a solid circle. It can be used for web, print materials. The colored version of the logo stands well for lighter backgrounds.
+          </p>
+        </div>
+        <div class="col">
+        <img class="img-size rounded mx-auto d-block" src="colored-logo.png" alt="Profile Picture">
+        </div>
+      </div>
+      <br>
+      <hr>
+
+       <div class="row align-items-center">
+        <div class="col">
+          <p class="header1-h4">
+            Black and White
+          </p>
+          <p class="header3-body">
+            The colored logo contains characaters inside a solid circle. It can be used for web, print materials. The colored version of the logo stands well for lighter backgrounds.
+          </p>
+        </div>
+        <div class="col">
+        <img class="img-size rounded mx-auto d-block" src="bw-logo.png" alt="Profile Picture">
+        </div>
+      </div>
+      <br>
+      <hr>
+
+       <div class="row align-items-center">
+        <div class="col">
+          <p class="header1-h4">
+            Reverse
+          </p>
+          <p class="header3-body">
+            This version of logo can be used for darker backgrounds.
+          </p>
+        </div>
+        <div class="col">
+        <img class="img-size rounded mx-auto d-block" src="reverse-logo.png" alt="Profile Picture">
+        </div>
+      </div>
+      <br>
+      <hr>
+
+
+       <div class="row align-items-center">
+        <div class="col">
+          <p class="header1-h4">
+            Fav Icon
+          </p>
+          <p class="header3-body">
+            This version of logo can be used as fav icon for browsers.
+          </p>
+        </div>
+        <div class="col">
+        <img class="rounded mx-auto d-block" src="../myfavicon.png" alt="Profile Picture">
+        </div>
+      </div>
+      <br>
+      <hr>
+
+    </div>
+
+      <!--Page content ends-->
+
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

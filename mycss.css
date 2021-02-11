@@ -207,6 +207,16 @@ body {
   font-weight: 200;
 }
 
+.custombg{
+
+  background-color: #f4f4f4;
+  padding: 50px;
+}
+
+.img-size{
+  height: 200px;
+}
+
 
 @media (max-width: 980px) {
   html {
