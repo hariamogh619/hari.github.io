@@ -11,6 +11,27 @@ body {
   margin-bottom: 50px;
 }
 
+.img-size-logo{
+  height: 80px;
+}
+
+.containerbody{
+  width: 700px;
+  margin: auto;
+  line-height: 1.9;
+}
+
+.colorbox{
+  width:500px;
+  height:100px;
+  border-radius: 2px;
+}
+
+.img-screencap{
+  width: 500px;
+  border: 1px solid #d8d8d8;
+}
+
 .header1-h1{
 
   font-family: 'Poppins', sans-serif;
@@ -199,7 +220,7 @@ body {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  color: #0000ee;
+  color: #072AC8;
 
 }
 

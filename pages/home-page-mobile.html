@@ -7,10 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
   <meta http-equiv="x-ua-compatible" content="ie=edge" />
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">   
-  <link rel="stylesheet" href="mycss.css">
-  <link rel='shortcut icon' type='image/x-icon' href='myfavicon.png' />
-
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="../mycss.css">
+  <link rel='shortcut icon' type='image/x-icon' href='../myfavicon.png' />
   <script>
     $(document).ready(function(){
       $(".dropdown").hover(function(){
@@ -28,7 +27,7 @@
 
     <!--Nav Bar Starts-->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="#"><img class="img-size-logo rounded mx-auto d-block" src="../colored-logo.png" alt="Profile Picture"></a>
+      <a class="navbar-brand" href="../index.html"><img class="img-size-logo rounded mx-auto d-block" src="../colored-logo.png" alt="Profile Picture"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -39,10 +38,9 @@
               Foundation
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="foundation/typography.html">Typography</a>
-              <a class="dropdown-item" href="foundation/color.html">Colors</a>
-              <a class="dropdown-item" href="foundation/logo.html">Logo</a>
-
+              <a class="dropdown-item" href="../foundation/typography.html">Typography</a>
+              <a class="dropdown-item" href="../foundation/color.html">Colors</a>
+              <a class="dropdown-item" href="../foundation/logo.html">Logo</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -50,9 +48,9 @@
               Components
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="components/navigation.html">Navigation</a>
-              <a class="dropdown-item" href="components/cards.html">Cards</a>
-              <a class="dropdown-item" href="components/footer.html">Footer</a>  
+              <a class="dropdown-item" href="navigation.html">Navigation</a>
+              <a class="dropdown-item" href="cards.html">Cards</a>
+              <a class="dropdown-item" href="footer.html">Footer</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -60,24 +58,63 @@
               Page Patterns
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="components/home-page.html">Home page</a>
-              <a class="dropdown-item" href="components/project-page.html">Projects page</a>          </li>
+              <a class="dropdown-item" href="home-page.html">Home page</a>
+              <a class="dropdown-item" href="project-page.html">Projects page</a>            
+            </div>
+          </li>
         </ul>
 
       </div>
     </nav>
 
     <!--Nav Bar Ends-->
+    <div class="container">
+      
 
-    <img class="img-fluid rounded mx-auto d-block" src="images/profilepic.png" height="100px" alt="Profile Picture">
+      <!--Page content starts-->
+
+      <nav aria-label="Page navigation example">
+  <ul class="pagination pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="home-page.html">Desktop view (1280px)</a></li>
+    <li class="page-item">
+      <a class="page-link" href="home-page-tablet.html">Tablet view (834px)<span class="sr-only">(current)</span></a>
+    </li>
+    <li class="page-item active">
+      <a class="page-link" href="home-page-mobile.html">Mobile view (375px)<span class="sr-only">(current)</span></a>
+    </li>
+  </ul>
+</nav>
+        <div class="row" style="margin-top: 50px;">
+        <div class="col">
+          <p class="header1-h4">Home page - Mobile view</p>
+        </div>
+      </div>
+
+        <div class="row" style="margin-top: 50px;">
+        <div class="col-9">
+      <img class="img-screencap" src="hmobilespec.png" style="width: 300px !important">
+        </div>
+      </div>
+      <hr>
+
+       <div class="row" style="margin-top: 50px;">
+        <div class="col">
+          <p class="header1-h4">Home page - Mobile view with grid</p>
+        </div>
+      </div>
+
+        <div class="row" style="margin-top: 50px;">
+        <div class="col-9">
+      <img class="img-screencap" src="hmobilegrid.png" style="width: 300px !important">
+        </div>
+      </div>
+      <hr>
 
 
-    <div class="containerbody">
-    <p class="header1-h1"><center><h1>Hi. This is Hari!</h1></center></p>
-    <p class="header3-body"><center>I am an impact-driven product designer with experience designing wide range of enterprise products. I am majoring in Human-Computer Interaction at DePaul University. I am graduating in Spring 2021, and actively looking for full-time UX / Product Designer opportunities.</center></p>
-  </div>
 
+      <!--Page content ends-->
 
+    </div>
 
   </div>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

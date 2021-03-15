@@ -1,0 +1,169 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport"content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+  <link rel="stylesheet" href="../mycss.css">
+  <link rel='shortcut icon' type='image/x-icon' href='../myfavicon.png' />
+  <script>
+    $(document).ready(function(){
+      $(".dropdown").hover(function(){
+        var dropdownMenu = $(this).children(".dropdown-menu");
+        if(dropdownMenu.is(":visible")){
+          dropdownMenu.parent().toggleClass("open");
+        }
+      });
+    });     
+  </script>
+  <title>Hari Amogh Murugan Design System</title>
+</head>
+<body>
+  <div class="container">
+
+    <!--Nav Bar Starts-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="../index.html"><img class="img-size-logo rounded mx-auto d-block" src="../colored-logo.png" alt="Profile Picture"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Foundation
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="../foundation/typography.html">Typography</a>
+              <a class="dropdown-item" href="../foundation/color.html">Colors</a>
+              <a class="dropdown-item" href="../foundation/logo.html">Logo</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Components
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="navigation.html">Navigation</a>
+              <a class="dropdown-item" href="cards.html">Cards</a>
+              <a class="dropdown-item" href="footer.html">Footer</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Page Patterns
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Coming soon</a>
+            </div>
+          </li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!--Nav Bar Ends-->
+    <div class="container">
+      
+
+      <!--Page content starts-->
+
+      <p class="header1-h3">Navigation</p>
+      <p class="header3-body">Navigation is a component that enables visitors to move from one page to another. It states the overall information architecture of the site. It is present on all the pages of the portfolio. It also reveals the brand identity using through text or logo.
+      </p>
+
+      <div class="row" style="margin-top: 50px;padding-bottom: 50px;">
+        <div class="col">
+          <p class="header3-body"><strong>Desktop and Tablet view</strong></p>
+        </div>
+        <div class="col" style="padding-bottom: 50px;">
+          <img src="navbar.png" width="700px">
+        </div>
+      </div>
+
+       <div class="row" style="margin-top: 50px;">
+        <div class="col">
+          <p class="header3-body"><strong>Mobile view</strong></p>
+        </div>
+        <div class="col">
+          <img src="navbar-mobile.png" width="700px">
+        </div>
+      </div>
+      <hr>
+      
+      <p class="header1-h4">Best practices & Accessibility</p>
+        <ol class="header3-body" style="line-height: 2;">
+          <li>Use Nav tag to attribute navigation to assistive technologies.</li>
+          <li>Add role='navigation' to attribute navigation to assistive technologies.</li>
+          <li>Always have a branding element attached to the nav bar to portray the purpose of the site.</li>
+          <li>Have only the important menus in the nav bar.</li>
+        </ol>
+      <hr>
+
+
+       <p class="header1-h4">Code</p>
+      <div class="container header3-body" style="background-color: #f4f4f4;">
+        <pre class="language-markup">
+          <code class="language-markup">
+        &lt;nav class=&quot;navbar navbar-expand-lg navbar-light&quot;&gt;<br />
+      &lt;a class=&quot;navbar-brand&quot; href=&quot;../index.html&quot;&gt;&lt;img class=&quot;img-size-logo rounded mx-auto d-block&quot; src=&quot;../colored-logo.png&quot; alt=&quot;Profile Picture&quot;&gt;&lt;/a&gt;<br />
+      &lt;button class=&quot;navbar-toggler&quot; type=&quot;button&quot; data-toggle=&quot;collapse&quot; data-target=&quot;#navbarSupportedContent&quot; aria-controls=&quot;navbarSupportedContent&quot; aria-expanded=&quot;false&quot; aria-label=&quot;Toggle navigation&quot;&gt;<br />
+        &lt;span class=&quot;navbar-toggler-icon&quot;&gt;&lt;/span&gt;<br />
+      &lt;/button&gt;<br />
+      &lt;div class=&quot;collapse navbar-collapse&quot; id=&quot;navbarSupportedContent&quot;&gt;<br />
+        &lt;ul class=&quot;navbar-nav ml-auto&quot;&gt;<br />
+          &lt;li class=&quot;nav-item dropdown&quot;&gt;<br />
+            &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;#&quot; id=&quot;navbarDropdown&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;<br />
+              Foundation<br />
+            &lt;/a&gt;<br />
+            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;navbarDropdown&quot;&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;typography.html&quot;&gt;Typography&lt;/a&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;color.html&quot;&gt;Colors&lt;/a&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;logo.html&quot;&gt;Logo&lt;/a&gt;<br />
+            &lt;/div&gt;<br />
+          &lt;/li&gt;<br />
+          &lt;li class=&quot;nav-item dropdown&quot;&gt;<br />
+            &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;#&quot; id=&quot;navbarDropdown&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;<br />
+              Components<br />
+            &lt;/a&gt;<br />
+            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;navbarDropdown&quot;&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;navigation.html&quot;&gt;Navigation&lt;/a&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;cards.html&quot;&gt;Cards&lt;/a&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;footer.html&quot;&gt;Footer&lt;/a&gt;<br />
+            &lt;/div&gt;<br />
+          &lt;/li&gt;<br />
+          &lt;li class=&quot;nav-item dropdown&quot;&gt;<br />
+            &lt;a class=&quot;nav-link dropdown-toggle&quot; href=&quot;#&quot; id=&quot;navbarDropdown&quot; role=&quot;button&quot; data-toggle=&quot;dropdown&quot; aria-haspopup=&quot;true&quot; aria-expanded=&quot;false&quot;&gt;<br />
+              Page Patterns<br />
+            &lt;/a&gt;<br />
+            &lt;div class=&quot;dropdown-menu&quot; aria-labelledby=&quot;navbarDropdown&quot;&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;home-ex.html&quot;&gt;Home&lt;/a&gt;<br />
+              &lt;a class=&quot;dropdown-item&quot; href=&quot;project-ex.html&quot;&gt;Project&lt;/a&gt;<br />
+            &lt;/div&gt;<br />
+          &lt;/li&gt;<br />
+        &lt;/ul&gt;<br />
+<br />
+      &lt;/div&gt;
+    </nav>
+  </code>
+</pre>
+      </div>
+
+
+
+      <!--Page content ends-->
+
+    </div>
+
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

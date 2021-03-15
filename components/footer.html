@@ -27,7 +27,7 @@
 
     <!--Nav Bar Starts-->
     <nav class="navbar navbar-expand-lg navbar-light">
-      <a class="navbar-brand" href="../index.html"><h3>Hari Amogh</h3></a>
+      <a class="navbar-brand" href="../index.html"><img class="img-size-logo rounded mx-auto d-block" src="../colored-logo.png" alt="Profile Picture"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,10 +38,9 @@
               Foundation
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="typography.html">Typography</a>
-              <a class="dropdown-item" href="color.html">Colors</a>
-              <a class="dropdown-item" href="logo.html">Logo</a>
-
+              <a class="dropdown-item" href="../foundation/typography.html">Typography</a>
+              <a class="dropdown-item" href="../foundation/color.html">Colors</a>
+              <a class="dropdown-item" href="../foundation/logo.html">Logo</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -49,9 +48,9 @@
               Components
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="../components/navigation.html">Navigation</a>
-              <a class="dropdown-item" href="../components/cards.html">Cards</a>
-              <a class="dropdown-item" href="../components/footer.html">Footer</a>             
+              <a class="dropdown-item" href="navigation.html">Navigation</a>
+              <a class="dropdown-item" href="cards.html">Cards</a>
+              <a class="dropdown-item" href="footer.html">Footer</a>
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -59,8 +58,7 @@
               Page Patterns
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="components/home-page.html">Home page</a>
-              <a class="dropdown-item" href="components/project-page.html">Projects page</a>
+              <a class="dropdown-item" href="#">Coming soon</a>
             </div>
           </li>
         </ul>
@@ -70,82 +68,57 @@
 
     <!--Nav Bar Ends-->
     <div class="container">
-
-      <p><h1>Logo</h1></p>
-      <br>
-      <p class="header3-body">The logo comprises of my italicized initials "HA" inside a solid circle. An exclamatory mark was added by recommendation to make it quirky. Below are the different variations of the logo.</p>
-      <br>
+      
 
       <!--Page content starts-->
 
-      <div class="container custombg">
+      <p class="header1-h3">Footer</p>
+      <p class="header3-body">Footer section is present on the bottom most part of the website. It is present on all the pages of the portfolio. It contains links, contact, copyright information in addition to the main nav bar contents. They assist users to flow through the site without having to scroll up to the nav bar.
+      </p>
 
-      <div class="row align-items-center">
+      <div class="row" style="margin-top: 50px;padding-bottom: 50px;">
         <div class="col">
-          <p class="header1-h4">
-            Color
-          </p>
-          <p class="header3-body">
-            The dark blue in this logo makes it ready for use in web, and print. It also evokes feelings such as passionate, bright, fun and creative.
-          </p>
+          <p class="header3-body"><strong>Desktop, Tablet view</strong></p>
         </div>
-        <div class="col">
-        <img class="img-size rounded mx-auto d-block" src="colored-logo.png" alt="Profile Picture">
+        <div class="col" style="padding-bottom: 50px;">
+          <img src="footer.png" width="700px">
         </div>
       </div>
-      <br>
       <hr>
 
-       <div class="row align-items-center">
+       <div class="row" style="margin-top: 50px;">
         <div class="col">
-          <p class="header1-h4">
-            Black and White
-          </p>
-          <p class="header3-body">
-            The black and white version of the logo gives a rich premium feeling. It evokes adjectives such as professional, and minimal. This logo can be used for backgrounds where the colored version's dark blue does not fit well.
-          </p>
+          <p class="header3-body"><strong>Mobile view</strong></p>
         </div>
-        <div class="col">
-        <img class="img-size rounded mx-auto d-block" src="bw-logo.png" alt="Profile Picture">
+        <div class="col" style="padding-bottom: 50px;">
+          <img src="footer-mobile.png" width="400px">
         </div>
       </div>
-      <br>
       <hr>
 
-       <div class="row align-items-center">
-        <div class="col">
-          <p class="header1-h4">
-            Reverse
-          </p>
-          <p class="header3-body">
-            This is a reverse version of the black and white logo. It can be used for darker backgrounds.
-          </p>
-        </div>
-        <div class="col">
-        <img class="img-size rounded mx-auto d-block" src="reverse-logo.png" alt="Profile Picture">
-        </div>
+       <p class="header1-h4">Best practices & Accessibility</p>
+        <ol class="header3-body" style="line-height: 2;">
+          <li>Mark up the element to enable assistive technologies to identify them.</li>
+          <li>Use the semantic footer tag.</li>
+          <li>Should be present on all pages of the portfolio.</li>
+        </ol>
+      <hr>
+
+       <p class="header1-h4">Code</p>
+      <div class="container header3-body" style="background-color: #f4f4f4;">
+        <pre class="language-markup">
+          <code class="language-markup">
+        &lt;footer class=&quot;bg-light text-center text-lg-start&quot;&gt;<br />
+        &lt;div class=&quot;text-center p-3&quot; style=&quot;background-color: #f6f7fb;&quot;&gt;<br />
+        &copy; 2021 Copyright:<br />
+        &lt;a href=&quot;https://hariamogh.com/&quot;&gt;Hari Amogh&lt;/a&gt;<br />
+        &lt;/div&gt;<br />
+        &lt;/footer&gt;
+  </code>
+</pre>
       </div>
-      <br>
-      <hr>
 
 
-       <div class="row align-items-center" style="padding-top:50px;padding-bottom:50px;">
-        <div class="col">
-          <p class="header1-h4">
-            Fav Icon
-          </p>
-          <p class="header3-body">
-            This version of the logo can be used as fav icon for browsers.
-          </p>
-        </div>
-        <div class="col">
-        <img class="rounded mx-auto d-block" src="../myfavicon.png" alt="Profile Picture">
-        </div>
-      </div>
-      <br>
-      <hr>
-
-    </div>
 
       <!--Page content ends-->
 
